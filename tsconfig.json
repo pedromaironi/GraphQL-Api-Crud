@@ -20,5 +20,7 @@
     "strictPropertyInitialization": false,
     "noUnusedLocals": false,
     "noUnusedParameters": true
-  }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }
